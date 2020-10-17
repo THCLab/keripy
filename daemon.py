@@ -9,8 +9,8 @@ import sys
 
 import pysodium
 
-from core.eventing import incept, rotate, interact, receipt, chit
-from core.coring import Verfer, Signer, Diger, Nexter, Prefixer
+from keri.core.eventing import incept, rotate, interact, receipt, chit
+from keri.core.coring import Verfer, Signer, Diger, Nexter, Prefixer
 
 parser = argparse.ArgumentParser(description='Command description.')
 parser.add_argument('--host', metavar="HOST", required=True, help="host on which server will listen")
