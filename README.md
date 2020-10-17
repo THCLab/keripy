@@ -3,6 +3,22 @@
 Project Name:  keripy
 
 
+## Run
+
+Daemon is implementing simple TCP interface which allows to talk with dummy
+agent.
+
+Ro run it
+
+    python ./src/keri/daemon.py --host=localhost
+
+Test it with telnet:
+
+    telnet localhost 49153
+
+And send any message
+
+
 ## Installation
 
 ### Dependencies
